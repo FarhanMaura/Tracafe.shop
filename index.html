@@ -36,7 +36,7 @@
   <body>
     <!--Navbar start-->
     <nav class="navbar" x-data>
-      <a href="#" class="navbar-logo"> <img src="img/menu/logomenu.png" width="40" height="40">Tracafe<span>Coffee</span></a>
+      <a href="#" class="navbar-logo"> <img src="img/menu/logomenu.png" width="40" height="40">Kopi<span>Farhan</span></a>
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
@@ -145,6 +145,8 @@
             >
               CheckOut
             </button>
+            <h5>Mohon isi data yang sesuai agar </h5>
+            <h5>pesanan anda dapat langsung kami proses </h5>
           </form>
         </div>
       </div>
@@ -178,15 +180,21 @@
         <div class="content">
           <h3>Keunggulan kopi Kami</h3>
           <p>
-            Produk yang kami tawarkan kepada kalian adalah produk kopi
-            tradisonal serta kopi cafe dengan harga murah serta ongkir yang
-            murah.
+            Produk yang kami tawarkan kepada kalian adalah berbagai
+            jenis kopi baik yang tradisional maupun kopi modern seperti cappucino dan lainnya 
+            siap minum dengan harga murah serta tidak memungut biaya ongkir.
           </p>
           <p>
-            tujuan produk kami dibuat adalah untuk orang yang sedang kumpul
+            Tujuan produk kami dibuat adalah untuk orang yang sedang kumpul
             diluar rumah seperti tempat nongkrong atau dirumah tapi ingin
             memesan kopi siap minum dengan harga yang murah dan bisa diantar ke
-            tempat kalian tanpa perlu pergi ke kafe
+            tempat kalian tanpa perlu pergi ke kafe.
+          </p>
+          <p>
+            Selain itu kami juga menawarkan pelanggan agar bisa request racikan
+            dari menu kami agar sesuai dengan selera masing-masing seperti
+            mulai dari tingkat asam kopi, manis kopi dan juga jika jarak terlalu jauh
+            untuk diantar bisa negosiasi untuk harga ongkirnya.
           </p>
         </div>
       </div>
@@ -223,15 +231,6 @@
           <p class="menu-card-price"><span>Panas</span> Rp.7.000</p>
           <p class="menu-card-price"><span>Dingin</span> Rp.9.000</p>
         </div>
-        <!-- <div class="menu-card">
-          <img
-            src="img/produk/1.png"
-            alt="Espresso"
-            class="menu-card-image"
-          />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price"><span>Panas</span> Rp.15.000</p>
-        </div> -->
         <div class="menu-card">
           <img
             src="img/produk/ame2.png"
@@ -301,63 +300,6 @@
 
             <div class="product-content">
               <h3 x-text="item.name"></h3>
-              <div class="product-stars">
-                <svg
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <use href="img/feather-sprite.svg#star" />
-                </svg>
-                <svg
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <use href="img/feather-sprite.svg#star" />
-                </svg>
-                <svg
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <use href="img/feather-sprite.svg#star" />
-                </svg>
-                <svg
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <use href="img/feather-sprite.svg#star" />
-                </svg>
-                <svg
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <use href="img/feather-sprite.svg#star" />
-                </svg>
-              </div>
               <div class="product-price">
                 <span x-text="rupiah(item.price)"></span>
               </div>
@@ -386,21 +328,7 @@
           class="map"
         ></iframe>
 
-        <!-- <form action="">
-          <div class="input-group">
-            <i data-feather="user"></i>
-            <input type="text" placeholder="nama" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"></i>
-            <input type="text" placeholder="email" />
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"></i>
-            <input type="text" placeholder="nomor hp" />
-          </div>
-          <button type="submit" class="btn">kirim pesan</button>
-        </form> -->
+
       </div>
     </section>
     <!--contact section end -->
@@ -408,23 +336,16 @@
     <!-- footer start -->
     <footer>
       <div class="socials">
+        <a href="http://wa.me/6285381196091"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i data-feather="phone"></i
+        ></a>
         <a
           href="https://www.instagram.com/tra.caffe/"
           target="_blank"
           rel="noopener noreferrer"
           ><i data-feather="instagram"></i
-        ></a>
-        <a
-          href="https://twitter.com/farhan78890"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i data-feather="twitter"></i
-        ></a>
-        <a
-          href="https://www.facebook.com/profile.php?id=61557637451991"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i data-feather="facebook"></i
         ></a>
       </div>
 
@@ -436,12 +357,12 @@
       </div>
 
       <div class="credit">
-        <p>Created by <a href="">Kelompok 6</a>. | &copy; 2024.</p>
-        <p>Muhamad Farhan Maura <a href="">221420075</a></p>
-        <p>Muhamad Firli Isryandi <a href="">221420023</a></p>
-        <p>Hafiz Alfarisyi <a href="">221420112</a></p>
-        <p>M. Raflie Akbar <a href="">211420115</a></p>
-        <p>KGS M. Syarif Hidayatullah <a href="">221420070</a></p>
+        <p>Created by <a href="https://www.instagram.com/tra.caffe/" target="_blank">Kelompok 6</a>. | &copy; 2024.</p>
+        <p>Muhamad Farhan Maura <a href="https://www.instagram.com/farhanmaura/" target="_blank">221420075</a></p>
+        <p>Muhamad Firli Isryandi <a href="https://www.instagram.com/_mhmdsnd/" target="_blank">221420023</a></p>
+        <p>M. Raflie Akbar <a href="https://www.instagram.com/rvflie?igsh=dm5yamM4dHNueTNl" target="_blank">211420115</a></p>
+        <p>Hafiz Alfarisyi <a href="https://www.instagram.com/hafiz.alfarisyi_?igsh=YmFuNmZsYnMxNHJ2" target="_blank">221420112</a></p>
+        <p>KGS M. Syarif Hidayatullah <a href="https://www.instagram.com/syrffhdaytllh?igsh=amFzNTJpcjYwbHNp" target="_blank">221420070</a></p>
       </div>
     </footer>
     <!-- footer end -->

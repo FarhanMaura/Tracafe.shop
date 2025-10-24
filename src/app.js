@@ -5,8 +5,8 @@ document.addEventListener("alpine:init", () => {
       { id: 2, name: "Kopi Susu", img: "kopisusu.png", price: 7000 },
       // { id: 3, name: "Espresso", img: "1.png", price: 13000 },
       { id: 4, name: "Americano", img: "ame2.png", price: 17000 },
-      { id: 5, name: "Kopi Aren", img: "4.png", price: 17000 },
-      { id: 6, name: "Tubruk", img: "2.png", price: 17000 },
+      { id: 5, name: "Kopi Aren", img: "4.png", price: 20000 },
+      { id: 6, name: "Tubruk", img: "2.png", price: 10000 },
       { id: 7, name: "Cappucino", img: "capu1.png", price: 23000 },
     ],
     searchTerm: "",
@@ -103,7 +103,10 @@ checkoutButton.addEventListener("click", function (e) {
   const data = new URLSearchParams(formData);
   const objData = Object.fromEntries(data);
   const message = formatMessage(objData);
-  window.open("http://wa.me/6283826383761?text=" + encodeURIComponent(message));
+  window.open(
+    "https://web.whatsapp.com/send?phone=6285381196091&text=" +
+      encodeURIComponent(message)
+  );
 });
 
 // format pesan whatsapp
